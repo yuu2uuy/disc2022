@@ -8,7 +8,7 @@
 <script>
 var num = Math.floor(Math.random()*100)
 document.write(num)
-str = "0-99 »çÀÌÀÇ °ªÀ» ÀÏ·ÂÇÏ½Ã¿À. "
+str = "0-99 Â»Ã§Ã€ÃŒÃ€Ã‡ Â°ÂªÃ€Â» Ã€ÃÂ·Ã‚Ã‡ÃÂ½ÃƒÂ¿Ã€. "
 a = []; b = []; c = []
 k = 0
 hint = ""
@@ -21,9 +21,9 @@ while ( true ) {
     document.write("<br>Your input data is " + a.toString())
     break
   } else if ( num > a[k] ) {
-    hint = "higher value"
-  } else {
     hint = "lower value"
+  } else {
+    hint = "higher value"
   }
   k++
 }
