@@ -1,0 +1,21 @@
+<!-- [3] 이름(name)과 나이(age)의 값을 가지는 객체 Jinsu(21), Chulsu(20)를 정의하고, 
+‘sum’ 글씨가 있는 3개의 버튼을 각각 클릭하면, 두 나이를 평균한 값을 각각의 버튼의 내용에 추가하고, 
+Jinsu와 Chulsu의 age를 1 증가하는 스크립트를 포함하는 HTML 문서를 작성하시오. 
+(body에는 버튼 3개만 있고, DOM Level 0 이벤트를 포함하는 코드는 모두 head에 배치할 것) [25] -->
+
+<html>
+<head>
+var Jinsu = {name : Jinsu, age : 21}
+var Chulsu = {name : Chulsu, age : 20}
+document.getElementById("sum").onclick = function {
+  var average = (Jinsu.age + Chulsu.age) / 2
+  Jinsu.age + 1
+  Chulsu.age + 1 
+}
+</head>
+<body>
+<button id = "Jinsu"> Jinsu </button>
+<button id = "Chulsu"> Chulsu </button>
+<button id = "sum"> Sum </button>
+</body>
+</html>
