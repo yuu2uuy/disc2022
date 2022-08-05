@@ -1,0 +1,34 @@
+<!-- [4] 버튼을 누르면, 비어있는 <UL> 엘리먼트에 새로운 내용의 <LI>값을 추가하고, 
+<LI> 내용을 클릭하면 클릭한 항목만 배경색을 오렌지색으로 만드는 DOM Level 2 
+이벤트 리스너를 가지는 스크립트를 작성하시오. 색 변경은 head에 클래스 스타일을 정의하여 활용한다. 
+모든 코드는 head에 넣는다. [25] -->
+
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style> 
+.orang { background: orange}
+</style>
+<script>
+window.onload = function() {
+  btn = document.querySelector("button")
+  uls = document.querySelector("ul")
+  btn.addEventListener("click", function() {
+    val = prompt("추가할 내용을 입력하시오")
+    uls.innerHTML += "<li>" + val + "</li>"
+  })
+  uls.addEventListener("click", function(r) {
+    lis = document.querySelectorAll("li")
+    for ( k=0; k<lis.length; k++)
+      lis[k].removeAttribute("class")
+    r.target.setAttribute("class", "orang")
+  })
+}
+</script>
+</head>
+<body>
+<button>추가</button>
+<ul>
+  <li>하 나 </li>
+</ul>
+</body></html>
