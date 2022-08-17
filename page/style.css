@@ -49,15 +49,15 @@ header h1{
 	color: white;
 }
 .wrapper > .page:nth-child(1){
-	background-image: url('../images/play_main01.png');
+	background-image: url('play_main01.png');
 	background-size: cover;
 }
 .wrapper > .page:nth-child(2){
-	background-image: url('../images/play_main02.png');
+	background-image: url('play_main02.png');
 	background-size: cover;			
 }	
 .wrapper > .page:nth-child(3){
-	background-image: url('../images/play_main03.png');
+	background-image: url('play_main03.png');
 	background-size: cover;	
 }		
 
