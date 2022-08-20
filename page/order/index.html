@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>order page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+
+        a {text-decoration:none; color:#000;}
+        a:link {text-decoration: none;}
+        a:visited {text-decoration: none;}
+        a:hover { text-decoration: none; color:#da5f26; font-weight:500;}
+        a:active {text-decoration: none;}
+        ul,ol,li {list-style:none;}
+        img,fieldset {border:none; vertical-align:middle;}
+        strong,em,address {font-weight:normal; font-style:normal;}
+        table {border-collapse:collapse;}
+        ul {padding:0px !important}
+        input {margin:0; padding:0; margin:0 auto; text-decoration:none;}
+        
+        body {
+            margin:0;
+            padding:0;
+            margin:0px auto;
+        }
+        
+        .navbar-nav li a:hover { color: #AF95D3 !important; }
+        .navbar {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        background-color: #ffffff;
+        }
+        
+        
+        .id {
+        background-color: #D6BFDD;
+        }
+        .page {
+            width:1170px;
+            margin: 0 auto;
+        }
+        .bg-1 {
+            background-color: #ffffff;  
+            line-height: 100%;
+        }
+        .nav_icon {float:right;}
+        .cate_meu {
+            float:left;
+            padding-top:4px;
+            padding-bottom:15px;
+            margin:0 60px;
+        }
+        #infor {
+            background-color:#f9f9f9;
+            padding-top:30px;
+            margin:0 auto;
+        }
+        .infor {
+            width:1170px;
+            margin:0 auto;
+            margin-bottom:100px;
+            line-height:18px;
+            font-size:12px;
+        }
+        .copyright {
+            background-color:#f66818;
+            text-align:center;
+            color:#fff;
+            padding:15px 0;
+            font-size:10px;
+        }
+        
+        .container-fluid {
+            padding-top: 70px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .margin {
+            margin-bottom: 45px;
+        }
+        .body {
+            width: 1170px;
+            font:20px, "Montserrat", sans-serif;
+            margin: 0;
+            padding: 0;
+            margin:0px auto;
+        }
+        input {
+            background-color:#dcdada;
+            border: solid 1px #dcdada;
+            position:relative;
+        }
+        select {
+            width: 70%;
+            height: 45px;
+            float: right;
+        }
+        
+        .radio {
+            float:left;
+            display:block;
+            font-size:15px;
+            margin-top:10px!important;
+            margin-bottom:20px!important;
+            
+        }
+        .radio_text {
+            margin-left:55px;
+        }
+        
+    </style>
+    
+    <body>
+       
+        <div class="mainpage">
+            <div id="Header" style="width:1170px; margin:0 auto;">
+                <!-- HEAD logo -->
+                <div class="navbar-header">
+                <a class="navbar-brand" href="https://yuu2uuy.github.io/disc2022/page/">
+                    <img src="playlistlogo.jpg" style="width:245px; margin:0px 15px; display: block; position:relative;" alt="Image">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    
+            </div>
+                <!-- 네비바 아이콘 -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <div class="right-container" style="width:300px; margin:50px 15px; ">
+                        <li class="nav_icon"><a href="https://yuu2uuy.github.io/disc2022/page/login"><img src="play_my.png" stlye=""alt="Image"></a></li>
+                        <li class="nav_icon" style="margin:0 10%;"><span><img src="play_bar.png"></span></li>
+                        <li class="nav_icon"><a href="#"><img src="play_heart.png" alt="Image"></a></li>
+                        <li class="nav_icon" style="margin:0 10%;"><span><img src="play_bar.png"></span></li>
+                        <li class="nav_icon"><a href="#"><img src="play_search.png" alt="Image"></a></li>
+                    </div>
+                </ul>
+            </div>
+            </div>
+            
+            <!-- 카테고리 -->
+            <div id="Cate" style="clear:both;">
+            
+                <hr style="width:100%; height:1px; border:none; background-color:#ddd; margin-top:80px;" />
+                
+                <div class="cate_menu"  style="width:1170px; margin:0 auto; ">
+                    <ul style="width:1170px; font-size:25px; " >
+                        <li class="cate_meu"><a href="#"><span style="color:#da5f26;"><b>ALL</b></span></a></li>
+                        <li class="cate_meu"><a href="#">NEW</a></li>
+                        <li class="cate_meu"><a href="#">BEST</a></li>
+                        <li class="cate_meu"><a href="#">K-POP</a></li>
+                        <li class="cate_meu"><a href="#">POP</a></li>
+                        <li class="cate_meu"><a href="#">J-POP</a></li>
+                    </ul>
+                </div>
+                
+                <hr style="width:100%; height:1px; border:none; background-color:#ddd; margin-top:80px; margin-bottom:0;" />
+            
+            </div>
+            
+            
+            <!--주문창-->
+            <div class="container-fluid bg-1 text-center page" style="margin-top:50px; margin-bottom:30px;">
+            
+                <p style="font-size:30px; color: #000000;"><b>주문하기</b></p><br><br>    
+                <hr style="width:100%; height:1px; border:none; background-color:rgb(17, 17, 17);" >
+                <p style="float:left; margin-left:2%;">주문상품</p>
+                <p style="float:right; margin-right:5%;">주문금액</p><br>
+                <hr style="width:100%; height:1px; border:none; background-color:#ddd;" ><br>
+
+                <img src="play_best1.png" style="float:left; width:9%; margin-left: 2%; margin-bottom: 1%;" alt="Image">
+                
+                <p style="float:right; margin-right:5%; margin-top:3%;"><b>5,000</b>원</p>
+                <p style="float:left; margin-left:1%; margin-top:0.5%;">서울의 테마</p><br><br><br>
+                <p style="float:left; margin-left:1%; color:#919191">sehooninseoul</p><br><br><br>
+                <p style="float:left; margin-left:1%; margin-bottom:0.5%;">1개</p>
+                <br><br><br><br><br><br>
+
+                <img src="play_new4.png" style="float:left; width:9%; margin-left: 2%; margin-bottom: 1%;" alt="Image">
+                <p style="float:right; margin-right:5%; margin-top:3%;"><b>8,800</b>원</p>
+                <p style="float:left; margin-left:1%; margin-top:0.5%;">Lazy day jazz</p><br><br><br>
+                <p style="float:left; margin-left:1%; color:#919191">my little room</p><br><br><br>
+                <p style="float:left; margin-left:1%; margin-bottom:0.5%;">1개</p>
+                <br><br><br><br><br><br>
+
+                <img src="play_new2.png" style="float:left; width:9%; margin-left: 2%; margin-bottom: 1%;" alt="Image">
+                <p style="float:right; margin-right:5%; margin-top:3%;"><b>19,800</b>원</p>
+                <p style="float:left; margin-left:1%; margin-top:0.5%;">요즘 듣는 케이팝</p><br><br><br>
+                <p style="float:left; margin-left:1%; color:#919191">구구 Playlist</p><br><br><br>
+                <p style="float:left; margin-left:1%; margin-bottom:0.5%;">2개</p><br><br>
+                <hr style="width:100%; height:1px; border:none; background-color:#ddd;" >
+                <p style="float:right; margin-right:1%; font-size: 30px; margin-top:2%; color:#da5f26;"><b>33,600원</b></p>
+                <p style="float:right; margin-right:1%; font-size: 30px; margin-top:2%;"><b>총 주문금액</b></p>
+            </div>
+            
+            <!-- 주문자정보 -->    
+            <div class="container-fluid page" style="padding-top: 20px;">
+                <form>      
+                    <p style="float:left; margin-left:2%;">주문자 정보</p><br>
+                    <hr style="width:100%; height:1px; border:none; background-color:rgb(17, 17, 17);" >    
+                    <input type="text" id="username" name="username" value="이름" style="float: right; padding: 8px 8px;">
+                    <p style="margin-left: 2%; margin-top: 2%;"><b>이름</b></p><br>
+                    <hr style="width:100%; height:1px; border:none; background-color:#ddd;" >
+                 
+                    <input type="text" id="phonenumber" name="phonenumber" style="float: right; width:10%; padding: 8px 8px;">
+                    <p style="float:right; margin-top: 6px;">&nbsp&nbsp-&nbsp&nbsp</p>
+                    <input type="text" id="phonenumber" name="phonenumber" style="float: right; width:10%; padding: 8px 8px;">
+                    <p style="float:right; margin-top: 6px;">&nbsp&nbsp-&nbsp&nbsp</p>
+                    <input type="text" id="phonenumber" name="phonenumber" style="float: right; width:10%; padding: 8px 8px;">
+                    <p style="margin-left: 2%; margin-top: 2%;"><b>휴대폰</b></p><br>
+                    <hr style="width:100%; height:1px; border:none; background-color:#ddd;" >
+                 
+                    <input type="text" id="email" name="email" style="float: right; width:20%; padding: 8px 8px;">
+                    <p style="float:right; margin-top: 6px;">&nbsp&nbsp@&nbsp&nbsp</p>
+                    <input type="text" id="phonenumber" name="phonenumber" style="float: right; width:20%; padding: 8px 8px;">
+                    <p style="margin-left: 2%; margin-top: 2%;"><b>이메일</b></p><br>
+                    <hr style="width:100%; height:1px; border:none; background-color:#ddd; " >
+                </form>
+            </div>
+            
+            <!-- 배송지정보 -->
+            <div class="container-fluid page">
+                <form>  
+                    <p style="float:left; margin-left:2%;">배송지 정보</p><br>
+                    <hr style="width:100%; height:1px; border:none; background-color:rgb(17, 17, 17);" >
+                    <input type="text" id="username" name="username" value="이름" style="float: right; padding: 8px 8px;">
+                    <p style="margin-left: 2%; margin-top: 2%;"><b>수령인</b></p><br>
+                    <hr style="width:100%; height:1px; border:none; background-color:#ddd;" >
+                    
+                    <input type="text" id="phonenumber" name="phonenumber" style="float: right; width:10%; padding: 8px 8px;">
+                    <p style="float:right; margin-top: 6px;">&nbsp&nbsp-&nbsp&nbsp</p>
+                    <input type="text" id="phonenumber" name="phonenumber" style="float: right; width:10%; padding: 8px 8px;">
+                    <p style="float:right; margin-top: 6px;">&nbsp&nbsp-&nbsp&nbsp</p>
+                    <input type="text" id="phonenumber" name="phonenumber" style="float: right; width:10%; padding: 8px 8px;">
+                    <p style="margin-left: 2%; margin-top: 2%;"><b>휴대폰</b></p><br>
+                    <hr style="width:100%; height:1px; border:none; background-color:#ddd;" >
+
+                    <a href="https://www.epost.go.kr/search.RetrieveIntegrationNewZipCdList.comm">
+                    <button type="button" style="float: right; background-color: #da5f26; color:#ffffff; border: solid 1px #da5f26; height: 38px;">우편번호찾기</button>
+                    </a>
+                    <input type="text" id="address" name="address" style="float: right; width:30%; margin-right:1%; padding: 8px 8px;" ><br><br><br> 
+                    <input type="text" id="address" name="address" style="float: right; width:30%; padding: 8px 8px;" >
+                    <input type="text" id="address" name="address" style="float: right; width:30%; margin-right:1%; padding: 8px 8px;">
+                    <p style="margin-left: 2%; margin-top: 2%;"><b>배송주소</b></p><br>
+                    <p style="float:right; color:#939393; font-size:13px;">*제주도, 도서 산간 지역 등은 배송이 하루 이상 추가 소요될 수 있습니다</p>
+                    <hr style="width:100%; height:1px; border:none; background-color:#ddd;" >
+                    
+                    <select id="memo" name="memo" size="1" style="width:70%; height:45px; padding-left:5px;"> 
+                        <option value="volvo" selected>배송시 요청사항을 선택해주세요</option>
+                        <option value="saab">부재시 경비(관리)실에 맡겨주세요</option>
+                        <option value="fiat">부재시 문앞에 놓아주세요</option>
+                        <option value="audi">직접 받겠습니다</option>
+                        <option value="audi">배송전에 연락해주세요</option>
+                        <option value="audi">직접입력</option>
+                    </select>
+                    <p style="margin-left: 2%; margin-top: 2%;"><b>배송메모</b></p><br>
+                    <hr style="width:100%; height:1px; border:none; background-color:#ddd;" >
+                </form>
+            </div>
+            
+            <!-- 최종결제금액 -->
+            <div class="container-fluid page" >
+                <p style="float:left; margin-left:2%;">최종결제금액</p><br>
+                <hr style="width:100%; height:1px; border:none; background-color:rgb(17, 17, 17);" >
+                <p style="float:left; margin-left:4%;">총 상품금액</p>
+                <p style="float:right; margin-right:3%;">33,600원</p><br><br>
+                <p style="float:left; margin-left:4%;">총 배송비</p>
+                <p style="float:right; margin-right:3%;">0원</p><br><br>
+                <p style="float:left; margin-left:4%; font-size:25px;"><b>결제 예상 금액</b></p>
+                <p style="float:right; margin-right:3%; font-size:25px; color:#da5f26; "><b>33,600원</b></p><br><br>
+                <hr style="width:100%; height:1px; border:none; background-color:#ddd;" >
+            </div>
+            
+            <!-- 결제수단 -->
+            <div class="container-fluid page">
+                <form>
+                    <p style="float:left; margin-left:2%;">결제수단</p><br>
+                    <hr style="width:100%; height:1px; border:none; background-color:rgb(17, 17, 17);" >
+
+                    <div class="radio naverpay" style="margin-left:2%; margin-right:10px;">
+                        <input type="radio" id="NaverPay" name="pay" value="NaverPay" style="margin:0;" margin-top:2px; >
+                        <label for="NaverPay">
+                            <img src="naverpay.png" style=" width:60%; margin-top:-6px;" alt="Image">
+                        </label>
+                    </div>
+
+                    <div class="radio kakaopay" style=" margin-right:10px;">
+                        <input type="radio" id="KakaoPay" name="pay" value="KakaoPay" style="margin:0; margin-top:2px;">
+                        <label for="KakaoPay">
+                            <img src="kakaopay.png" style="width:58%; margin-top:-6px;" alt="Image">
+                        </label>
+                    </div>
+
+                    <div class="radio toss" style="margin-right: -35px;">
+                        <input type="radio" id="Toss" name="pay" value="Toss" style="margin:0; margin-top:2px;">
+                        <label for="Toss">
+                            <img src="toss.png" style=" width:60%; margin-top:-6px;" alt="Image">
+                        </label>
+                    </div>
+
+                    <div class="radio radio_text card">
+                        <input type="radio" id="card" name="pay" value="card" style="margin:0; margin-top:2px;">
+                        <label for="card"><span style="margin-top:-2px;">신용 / 체크카드</span></label>  
+                    </div>
+
+                    <div class="radio radio_text bankbook">
+                        <input type="radio" id="bank" name="pay" value="bank" style="margin:0; margin-top:2px;">
+                        <label for="bank" style="margin:0;">무통장 입금</label>  
+                    </div>
+
+                    <div class="radio radio_text phone">
+                        <input type="radio" id="phone" name="pay" value="phone" style="margin:0; margin-top:2px; margin-right:2%;">
+                        <label for="phone" style="margin:0;">휴대폰 결제</label>
+                    </div>
+
+                    <hr style="width:100%; height:1px; border:none; background-color:#ddd;" >
+                </form>
+            </div>
+            
+            <!-- 동의체크박스 -->
+            <div class="container-fluid text-center page" style="margin-bottom:110px;">
+                <form>
+                    <div class="agree" style="margin:0 auto;">
+                        <input type="checkbox" id="agree" name="agree" value="agree" style="margin-right:7px;">
+                        <label for="agree" style=" margin-bottom:20px;">위 주문의 상품 및 결제, 주문 정보 등을 확인 하였으며, 이에 동의합니다. (필수)
+                        </label>
+                    </div>
+                    <hr style="width:100%; height:1px; border:none; background-color:#ddd; margin-bottom:65px;" >
+                    <button type="button" onclick="alert('주문해 주셔서 감사합니다!')" style="width:30%; height: 50px; background-color:#da5f26; color:#ffffff; border: solid 1px #da5f26; font-weight:450; padding-top:4px;">결제하기
+                    </button>
+                </form>
+            </div>
+            
+            <!-- 하단 정보 -->
+            <div id="infor">
+                <div class="infor">
+                       
+                    <div class="infor01">
+                        <h1 style="font-size:30px; font-weight:800;">고객센터 <span style="font-weight:700;">080-822-1450</span></h1>
+                        <p style="font-size:12px;">영업시간 : AM 9:00 ~ PM 18:00 (주말 및 공휴일 휴무) <br>점심시간 : PM 13:30 ~ PM 14:30</p>
+                    </div>
+                     
+                    <hr style="width:1170px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" />
+                       
+                    <div class="infor02">
+                        <p style="font-size:12px;">
+                            ㈜유튜브  
+                            <br/>
+                            주소 : 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+                        </p>
+                        <p style="margin-top:20px; font-size:12px;">
+                            <a href="#" style="font-weight:600;">이용약관</a> <span style="margin:0 10px;"> | </span> <a href="#"  style="font-weight:600;">개인정보정책</a> <span style="margin:0 10px;"> | </span> <a href="#"  style="font-weight:600;">전자금융거래이용약관</a>                       
+                        </p> 
+                    </div>
+                    
+                </div>
+                
+                <div class="container-fluid copyright text-center" style="padding:15px 0;">
+                    <p style="font-size:10px; margin:0;">Copyright © yuu2uuy. All rights reserved.</p>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
