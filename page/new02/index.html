@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>요즘 듣는 케이팝 상세 페이지</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+        .navbar-nav li a:hover { color: #AF95D3 !important; }
+        .navbar {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        background-color: #ffffff;
+        }
+        body {
+            margin:0;
+            padding:0;
+            margin:0px auto;
+        }
+        a {text-decoration:none; color:#000;}
+        a:link {text-decoration: none;}
+        a:visited {text-decoration: none;}
+        a:hover { text-decoration: none; color:#da5f26; font-weight:500;}
+        a:active {text-decoration: none;}
+        ul,ol,li {list-style:none;}
+        img,fieldset {border:none; vertical-align:middle;}
+        strong,em,address {font-weight:normal; font-style:normal;}
+        table {border-collapse:collapse;}
+        ul {padding:0px !important}
+        .id {
+        background-color: #D6BFDD;
+        }
+        .bg-1 {
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+        .productinfor01{
+            margin:0;
+            padding:0;
+        }
+        .nav_icon {
+            float:right;
+        }
+        .cate_meu {
+            float:left;
+            padding-top:4px;
+            padding-bottom:15px;
+            margin:0 60px;
+        }
+        .copyright {
+            background-color:#f66818;
+            text-align:center;
+            color:#fff;
+            padding:15px 0;
+            font-size:10px;
+        }
+        .new02-1 {
+            box-sizing: border-box;
+            width:50%;
+            display : block;
+            margin : auto;
+        }
+        .new02-2 {
+            box-sizing: border-box;
+            width:50%;
+            display : block;
+            margin : auto;
+        }
+        .newwrite {
+            float:left;
+        }
+        .new02-3 {
+            box-sizing: border-box;
+            width:50%;
+            display : block;
+            margin : auto;
+        }
+        .new02-op {
+            box-sizing: border-box;
+            width:25%;
+            display : block;
+            margin : auto;
+        }
+        #infor {
+            background-color:#f9f9f9;
+            padding-top:30px;
+            margin:0 auto;
+            
+        }
+        .infor {
+            width:1170px;
+            margin:0 auto;
+            margin-bottom:100px;
+            line-height:18px;
+            font-size:12px;
+        }
+    </style>
+    <body>
+        <div class="mainpage">
+            <div id="Header" style="width:1170px; margin:0 auto;">
+                <!-- HEAD logo -->
+                <div class="navbar-header">
+                <a class="navbar-brand" href="https://yuu2uuy.github.io/disc2022/page/">
+                    <img src="playlistlogo.jpg" style="width:245px; margin:0px 15px; display: block; position:relative;" alt="Image">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>   
+                </div>
+                <!-- 네비바 아이콘 -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <div class="right-container" style="width:300px; margin:50px 15px; ">
+                        <li class="nav_icon"><a href="https://yuu2uuy.github.io/disc2022/page/login"><img src="play_my.png" stlye=""alt="Image"></a></li>
+                        <li class="nav_icon" style="margin:0 10%;"><span><img src="play_bar.png"></span></li>
+                        <li class="nav_icon"><a href="#"><img src="play_heart.png" alt="Image"></a></li>
+                        <li class="nav_icon" style="margin:0 10%;"><span><img src="play_bar.png"></span></li>
+                        <li class="nav_icon"><a href="https://vibe.naver.com/today?utm_source=brandsearch_PC&utm_medium=title"><img src="play_search.png" alt="Image"></a></li>
+                    </div>
+                </ul>
+                </div>
+            </div>
+            
+            <!-- 카테고리 -->
+            <div id="Cate" style="clear:both;">
+                <hr style="width:100%; height:1px; border:none; background-color:#ddd; margin-top:80px;" />
+                <div class="cate_menu"  style="width:1170px; margin:0 auto; ">
+                    <ul style="width:1170px; font-size:25px; " >
+                        <li class="cate_meu"><a href="#"><span style="color:#da5f26;"><b>ALL</b></span></a></li>
+                        <li class="cate_meu"><a href="#">NEW</a></li>
+                        <li class="cate_meu"><a href="#">BEST</a></li>
+                        <li class="cate_meu"><a href="#">K-POP</a></li>
+                        <li class="cate_meu"><a href="#">POP</a></li>
+                        <li class="cate_meu"><a href="#">J-POP</a></li>
+                    </ul>
+                </div>
+                <hr style="width:100%; height:1px; border:none; background-color:#ddd; margin-top:80px; margin-bottom:0;" />
+            </div>
+            
+            <!-- New 02 상품 정보 --> <!--productinfor01 style탭에 margine, padding 0 넣고 밑에 직속으로 margin 삽입-->
+            <div class="container-fluid bg-1 ">
+                <div class="col-sm-4">
+                    <a href="https://www.youtube.com/watch?v=J_lFToA7Fvo&t=4785s">
+                    <img src="play_new02.png" class="img-responsive" alt="Image" style="width:100%"> 
+                    </a>
+                </div>        
+                <div class="productinfor01" style="float:left; margin-left:2%;">
+                    <p style="color:rgb(171, 168, 168);">구구 Playlist</p>
+                    <p style="font-size:30px;">요즘 듣는 케이팝</p>
+                    <p style="font-size:30px;"><b>9,900원</b></p>
+                    <p style="color:#ddd;">@youtube</p>
+                    <hr style="width:800px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" />
+
+                    <p>배송정보</p><br>
+                    <p style="color:rgb(130, 129, 129);">배송비 : 2,000원 (10,000원 이상 무료)<br>
+                        <span style="color:#da5f26;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp회원은 1,000원 이상 전상품 무료배송</span></p>
+                    <p style="color:rgb(130, 129, 129);">배송형태 : 빠른배송</p>
+                    <hr style="width:800px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" />
+
+                    <span style="color:#da5f26;">
+                    <p>● 주문 전 꼭! 확인해주세요 ●</p>
+                    <p>* 플레이리스트 특성상 단순변심에 의한 제품 교환·환불은 불가합니다.<br>
+                        * 주말 및 공휴일도 상품 출고가능합니다.</p>
+                    <p>---</p>
+                    <p>주말 및 공휴일이 포함되어 있거나 주문 폭주인 경우, <br>
+                        출고일까지 1~3일 소요될 수 있습니다. (영업일 기준)</p>  
+                    <p>---</p>
+                    <p>이미지를 클릭하시면 플레이리스트 링크로 넘어갑니다!</p>    
+                    </span>
+                    <hr style="width:800px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" />
+                    <form>
+                        <select id="option1" name="option1" size="1" style="width:85%; height:45px; padding-left:5px;"> 
+                            <option value="op1" selected>필수 옵션</option>
+                            <option value="op2">뉴진스 - Attention</option>
+                            <option value="op3">F(x) - MILK</option>
+                            <option value="op4">STAYC - BEAUTIFUL MONSTER</option>
+                            <option value="op5">선미 - 열이 올라요</option>
+                            <option value="op6">프로미스나인 - Stay This Way</option>
+                            <option value="op7">케플러 - Up!</option>
+                            <option value="op8">나연 - POP!</option>
+                            <option value="op9">비비지 - LOVEADE</option>
+                            <option value="op10">뉴진스 - Cookie</option>
+                            <option value="op11">레드벨벳 - Sunny Side Up!</option>
+                            <option value="op12">위너 - I LOVE U</option>
+                            <option value="op13">우주소녀 - Last Sequence</option>
+                            <option value="op14">Aespa - Girls</option>
+                            <option value="op15">르세라핌 - Blue Flame</option>
+                            <option value="op16">NCT DREAM - Sorry, Heart</option>
+                            <option value="op17">소녀시대 - Love Is Bitter</option>
+                            <option value="op18">Aespa - YEPPI YEPPI</option>
+                            <option value="op19">위너 - HOLIDAY</option>
+                            <option value="op20">더보이즈 - D.D.D</option>
+                            <option value="op21">데이식스 - 한 페이지가 될 수 있게</option>
+                            <option value="op22">세븐틴 - 지금 널 찾아가고 있어</option>
+                            <option value="op23">있지 - SWIPE</option>
+                            <option value="op24">Aespa - Lingo</option>
+                            <option value="op25">IDLE - 말리지 마</option>
+                            <option value="op26">NMIXX - O.O</option>
+                            <option value="op27">블랙핑크 - Lovesick Girls</option>
+                            <option value="op28">빅뱅 - 맨정신</option>
+                            <option value="op29">있지 - Sorry Not Sorry</option>
+                            <option value="op30">유아 - 숲의 아이</option>
+                            <option value="op31">Aespa - Life's Too Short(Eng ver.)</option>
+                            <option value="op32">F(x) - 미행</option>
+                            <option value="op33">뉴진스 - Hype Boy</option>
+                        </select><br><br>
+                        <select id="option2" name="option2" size="1" style="width:85%; height:45px; padding-left:5px;">     
+                            <option value="op34" selected>선택 옵션</option>
+                            <option value="op35">곧 추가될 예정입니다</option> 
+                        </select>
+                        <br><br><br><br>
+                        <p style="float:left; font-size:17px;">총 2개의 상품</p>
+                        <p style="float:right; font-size:20px; margin-right:15%;">총 금액 &nbsp<span style="color:#da5f26;"> 19,800 원</span></p><br><br><br> 
+                        <button type="button" onclick="alert('다음에 도와드릴게요~')" style="width:42%; height:50px; background-color: #ffffff; border: solid 1px #b3b3b3; border-radius: 8px; margin-right: 1%;">
+                            장바구니 담기
+                        </button>
+                        <a href="https://yuu2uuy.github.io/disc2022/page/order">
+                        <button type="button" onclick="alert('클릭해주세요!')" style="width:42%; height:50px; background-color: #da5f26; color:#ffffff; border: solid 1px #b3b3b3; border-radius: 8px; ">
+                            구매하기
+                        </button>
+                        </a>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 상품 세부 설명칸 -->
+            <div class="container-fluid bg-2 text-center">
+                <br><br>
+                <hr style="width:1170px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" /><br><br>
+                <p style="border: solid 1px #b3b3b3; width:60%; margin-left:20%; font-size: 18px; padding:2%; color:rgb(130, 129, 129);">
+                    더 다양한 음악을 들을 수 있게 <span style="color:#000000;"><b>노력할게요.  </b></span>많은<span style="color:#da5f26;"><b> 관심과 사랑 </b></span>부탁드려요.<br>안전한 배송을 위해 최선을 다하겠습니다. 감사합니다.</p>
+            </div>
+            
+            <div class="container-fluld bg-3 "> 
+                <div class="new02-1" style="float:center;">
+                    <img src="gugubanner.png" class="img-responsive" alt="Image" style = "margin-top: 80px; margin-bottom: 80px;"> 
+                </div>
+
+                <div class="new02-2" style="float:center;">
+                    <div class="newwrite1">
+                        <p style="font-size: 23px;"><b>구구 Playlist</p>
+                        <p style="font-size: 23px; color:#da5f26;">요즘 듣는 케이팝</b></p><br><br><br>
+                    </div>
+                </div>
+
+                <div class="new02-3" style="float:center;">
+                    <img src="play_new02.png" class="img-responsive" alt="Image" ><br><br><br><br>
+                </div>
+
+                <div class="new02-op text-center" style="float:center;">
+                    <p style="font-size: 20px; color:#da5f26;"><b>OPTION</b></p><br><br>
+                    <div class="new02-op1">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">01</p> <br>
+                        <p style="font-size: 18px;"><b>Attention</b></p>
+                        <p>뉴진스</p><br>
+                        <img src="new02-s1.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op2">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">02</p> <br>
+                        <p style="font-size: 18px;"><b>MILK</b></p>
+                        <p>F(x)</p><br>
+                        <img src="new02-s2.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op3">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">03</p> <br>
+                        <p style="font-size: 18px;"><b>BEAUTIFUL MONSTER</b></p>
+                        <p>STAYC</p><br>
+                        <img src="new02-s3.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op4">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">04</p> <br>
+                        <p style="font-size: 18px;"><b>SNEAKERS</b></p>
+                        <p>있지</p><br>
+                        <img src="new02-s4.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op5">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">05</p> <br>
+                        <p style="font-size: 18px;"><b>열이 올라요</b></p>
+                        <p>선미</p><br>
+                        <img src="new02-s5.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op6">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">06</p> <br>
+                        <p style="font-size: 18px;"><b>Stay This Way </b></p>
+                        <p>프로미스나인</p><br>
+                        <img src="new02-s6.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op7">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">07</p> <br>
+                        <p style="font-size: 18px;"><b>Up!</b></p>
+                        <p>케플러</p><br>
+                        <img src="new02-s7.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op8">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">08</p> <br>
+                        <p style="font-size: 18px;"><b>POP!</b></p>
+                        <p>나연</p><br>
+                        <img src="new02-s8.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op9">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">09</p> <br>
+                        <p style="font-size: 18px;"><b>LOVEADE</b></p>
+                        <p>비비지</p><br>
+                        <img src="new02-s9.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op10">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">10</p> <br>
+                        <p style="font-size: 18px;"><b>Cookie</b></p>
+                        <p>뉴진스</p><br>
+                        <img src="new02-s1.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op11">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">11</p> <br>
+                        <p style="font-size: 18px;"><b>Sunny Side Up!</b></p>
+                        <p>레드벨벳</p><br>
+                        <img src="new02-s11.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op12">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">12</p> <br>
+                        <p style="font-size: 18px;"><b>I LOVE U</b></p>
+                        <p>위너</p><br>
+                        <img src="new02-s12.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op13">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">13</p> <br>
+                        <p style="font-size: 18px;"><b>Last Sequence </b></p>
+                        <p>우주소녀</p><br>
+                        <img src="new02-s13.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op14">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">14</p> <br>
+                        <p style="font-size: 18px;"><b>Girls</b></p>
+                        <p>Aespa</p><br>
+                        <img src="new02-s14.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op15">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">15</p> <br>
+                        <p style="font-size: 18px;"><b>Blue Flame</b></p>
+                        <p>르세라핌</p><br>
+                        <img src="new02-s15.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op16">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">16</p> <br>
+                        <p style="font-size: 18px;"><b>Sorry, Heart</b></p>
+                        <p>NCT DREAM</p><br>
+                        <img src="new02-s16.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op17">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">17</p> <br>
+                        <p style="font-size: 18px;"><b>Love Is Bitter</b></p>
+                        <p>소녀시대</p><br>
+                        <img src="new02-s17.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op18">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">18</p> <br>
+                        <p style="font-size: 18px;"><b>YEPPI YEPPI</b></p>
+                        <p>Aespa</p><br>
+                        <img src="new02-s14.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op19">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">19</p> <br>
+                        <p style="font-size: 18px;"><b>HOLIDAY</b></p>
+                        <p>위너</p><br>
+                        <img src="new02-s12.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op20">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">20</p> <br>
+                        <p style="font-size: 18px;"><b>D.D.D</b></p>
+                        <p>더보이즈</p><br>
+                        <img src="new02-s20.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op21">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">21</p> <br>
+                        <p style="font-size: 18px;"><b>한 페이지가 될 수 있게</b></p>
+                        <p>데이식스</p><br>
+                        <img src="new02-s21.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op22">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">22</p> <br>
+                        <p style="font-size: 18px;"><b>지금 널 찾아가고 있어</b></p>
+                        <p>세븐틴</p><br>
+                        <img src="new02-s22.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op23">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">23</p> <br>
+                        <p style="font-size: 18px;"><b>SWIPE</b></p>
+                        <p>있지</p><br>
+                        <img src="new02-s23.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op24">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">24</p> <br>
+                        <p style="font-size: 18px;"><b>Lingo</b></p>
+                        <p>Aespa</p><br>
+                        <img src="new02-s14.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op25">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">25</p> <br>
+                        <p style="font-size: 18px;"><b>말리지 마</b></p>
+                        <p>IDLE</p><br>
+                        <img src="new02-s25.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op26">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">26</p> <br>
+                        <p style="font-size: 18px;"><b>O.O</b></p>
+                        <p>NMIXX</p><br>
+                        <img src="new02-s26.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op27">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">27</p> <br>
+                        <p style="font-size: 18px;"><b>Lovesick Girls</b></p>
+                        <p>블랙핑크</p><br>
+                        <img src="new02-s27.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op28">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">28</p> <br>
+                        <p style="font-size: 18px;"><b>맨정신</b></p>
+                        <p>빅뱅</p><br>
+                        <img src="new02-s28.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op29">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">29</p> <br>
+                        <p style="font-size: 18px;"><b>Sorry Not Sorry</b></p>
+                        <p>있지</p><br>
+                        <img src="new02-s29.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op30">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">30</p> <br>
+                        <p style="font-size: 18px;"><b>숲의 아이</b></p>
+                        <p>유아</p><br>
+                        <img src="new02-s30.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op31">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">31</p> <br>
+                        <p style="font-size: 18px;"><b>Life's Too Short (Eng Ver.)</b></p>
+                        <p>Aespa</p><br>
+                        <img src="new02-s31.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op32">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">32</p> <br>
+                        <p style="font-size: 18px;"><b>미행</b></p>
+                        <p>F(x)</p><br>
+                        <img src="new02-s32.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new02-op33">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">33</p> <br>
+                        <p style="font-size: 18px;"><b>Hype Boy</b></p>
+                        <p>뉴진스</p><br>
+                        <img src="new02-s1.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 하단 정보 -->
+            <div id="infor">
+                <div class="infor">
+                    <div class="infor01">
+                        <h1 style="font-size:30px; font-weight:800;">고객센터 <span style="font-weight:700;">080-822-1450</span></h1>
+                        <p style="font-size:12px;">영업시간 : AM 9:00 ~ PM 18:00 (주말 및 공휴일 휴무) <br>점심시간 : PM 13:30 ~ PM 14:30</p>
+                    </div>
+                    <hr style="width:1170px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" />       
+                    <div class="infor02">
+                        <p style="font-size:12px;">
+                            ㈜유튜브  
+                            <br/>
+                            주소 : 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+                        </p>
+                        <p style="margin-top:20px; font-size:12px;">
+                            <a href="#" style="font-weight:600;">이용약관</a> <span style="margin:0 10px;"> | </span> <a href="#"  style="font-weight:600;">개인정보정책</a> <span style="margin:0 10px;"> | </span> <a href="#"  style="font-weight:600;">전자금융거래이용약관</a>                       
+                        </p> 
+                    </div>
+                </div>
+                <div class="container-fluid copyright text-center" style="padding:15px 0;">
+                    <p style="font-size:10px; margin:0;">Copyright © yuu2uuy. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
