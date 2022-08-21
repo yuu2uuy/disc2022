@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>지하철 역 상세 페이지</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+        .navbar-nav li a:hover { color: #AF95D3 !important; }
+        .navbar {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        background-color: #ffffff;
+        }
+        body {
+            margin:0;
+            padding:0;
+            margin:0px auto;
+        }
+        a {text-decoration:none; color:#000;}
+        a:link {text-decoration: none;}
+        a:visited {text-decoration: none;}
+        a:hover { text-decoration: none; color:#da5f26; font-weight:500;}
+        a:active {text-decoration: none;}
+        ul,ol,li {list-style:none;}
+        img,fieldset {border:none; vertical-align:middle;}
+        strong,em,address {font-weight:normal; font-style:normal;}
+        table {border-collapse:collapse;}
+        ul {padding:0px !important}
+        .id {
+        background-color: #D6BFDD;
+        }
+        .bg-1 {
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+        .productinfor01{
+            margin:0;
+            padding:0;
+        }
+        .nav_icon {
+            float:right;
+        }
+        .cate_meu {
+            float:left;
+            padding-top:4px;
+            padding-bottom:15px;
+            margin:0 60px;
+        }
+        .copyright {
+            background-color:#f66818;
+            text-align:center;
+            color:#fff;
+            padding:15px 0;
+            font-size:10px;
+        }
+        .new01-1 {
+            box-sizing: border-box;
+            width:50%;
+            display : block;
+            margin : auto;
+        }
+        .new01-2 {
+            box-sizing: border-box;
+            width:50%;
+            display : block;
+            margin : auto;
+        }
+        .newwrite {
+            float:left;
+        }
+        .new01-3 {
+            box-sizing: border-box;
+            width:50%;
+            display : block;
+            margin : auto;
+        }
+        
+        .new01-op {
+            box-sizing: border-box;
+            width:25%;
+            display : block;
+            margin : auto;
+        }
+        #infor {
+            background-color:#f9f9f9;
+            padding-top:30px;
+            margin:0 auto;
+            
+        }
+        .infor {
+            width:1170px;
+            margin:0 auto;
+            margin-bottom:100px;
+            line-height:18px;
+            font-size:12px;
+        }
+    </style>
+    <body>
+        <div class="mainpage">
+            <div id="Header" style="width:1170px; margin:0 auto;">
+                <!-- HEAD logo -->
+                <div class="navbar-header">
+                <a class="navbar-brand" href="https://yuu2uuy.github.io/disc2022/page/">
+                    <img src="playlistlogo.jpg" style="width:245px; margin:0px 15px; display: block; position:relative;" alt="Image">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                <!-- 네비바 아이콘 -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <div class="right-container" style="width:300px; margin:50px 15px; ">
+                        <li class="nav_icon"><a href="https://yuu2uuy.github.io/disc2022/page/login"><img src="play_my.png" stlye=""alt="Image"></a></li>
+                        <li class="nav_icon" style="margin:0 10%;"><span><img src="play_bar.png"></span></li>
+                        <li class="nav_icon"><a href="#"><img src="play_heart.png" alt="Image"></a></li>
+                        <li class="nav_icon" style="margin:0 10%;"><span><img src="play_bar.png"></span></li>
+                        <li class="nav_icon"><a href="https://vibe.naver.com/today?utm_source=brandsearch_PC&utm_medium=title"><img src="play_search.png" alt="Image"></a></li>
+                    </div>
+                </ul>
+                </div>
+            </div>
+            
+            <!-- 카테고리 -->
+            <div id="Cate" style="clear:both;">
+                <hr style="width:100%; height:1px; border:none; background-color:#ddd; margin-top:80px;" />
+                <div class="cate_menu"  style="width:1170px; margin:0 auto; ">
+                    <ul style="width:1170px; font-size:25px; " >
+                        <li class="cate_meu"><a href="#"><span style="color:#da5f26;"><b>ALL</b></span></a></li>
+                        <li class="cate_meu"><a href="#">NEW</a></li>
+                        <li class="cate_meu"><a href="#">BEST</a></li>
+                        <li class="cate_meu"><a href="#">K-POP</a></li>
+                        <li class="cate_meu"><a href="#">POP</a></li>
+                        <li class="cate_meu"><a href="#">J-POP</a></li>
+                    </ul>
+                </div>
+                <hr style="width:100%; height:1px; border:none; background-color:#ddd; margin-top:80px; margin-bottom:0;" />
+            </div>
+            
+            <!-- New 01 상품 정보 --> <!--productinfor01 style탭에 margine, padding 0 넣고 밑에 직속으로 margin 삽입-->
+            <div class="container-fluid bg-1 ">
+                <div class="col-sm-4">
+                    <a href="https://www.youtube.com/watch?v=NwcUDSqmRpA&t=523s">
+                    <img src="play_new01.png" class="img-responsive" alt="Image" style="width:100%"> 
+                    </a>
+                </div>        
+                <div class="productinfor01" style="float:left; margin-left:2%;">
+                    <p style="color:rgb(171, 168, 168);">sehooninseoul </p>
+                    <p style="font-size:30px;">지하철 역</p>
+                    <p style="font-size:30px;"><b>3,000원</b></p>
+                    <p style="color:#ddd;">@youtube</p>
+                    <hr style="width:800px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" />
+
+                    <p>배송정보</p><br>
+                    <p style="color:rgb(130, 129, 129);">배송비 : 2,000원 (10,000원 이상 무료)<br>
+                        <span style="color:#da5f26;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp회원은 1,000원 이상 전상품 무료배송</span></p>
+                    <p style="color:rgb(130, 129, 129);">배송형태 : 빠른배송</p>
+                    <hr style="width:800px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" />
+
+                    <span style="color:#da5f26;">
+                    <p>● 주문 전 꼭! 확인해주세요 ●</p>
+                    <p>* 플레이리스트 특성상 단순변심에 의한 제품 교환·환불은 불가합니다.<br>
+                        * 주말 및 공휴일도 상품 출고가능합니다.</p>
+                    <p>---</p>
+                    <p>주말 및 공휴일이 포함되어 있거나 주문 폭주인 경우, <br>
+                        출고일까지 1~3일 소요될 수 있습니다. (영업일 기준)</p>    
+                    <p>---</p>
+                    <p>이미지를 클릭하시면 플레이리스트 링크로 넘어갑니다!</p>  
+                    </span>
+                    <hr style="width:800px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" />
+                    <form>
+                        <select id="option1" name="option1" size="1" style="width:85%; height:45px; padding-left:5px;"> 
+                            <option value="op1" selected>필수 옵션</option>
+                            <option value="op2">모임별 - 2</option>
+                            <option value="op3">윤상 - 새벽</option>
+                            <option value="op4">김도언 - Newbie (feat. 이랑)</option>
+                            <option value="op5">공중도둑 - 곡선과 투과광</option>
+                            <option value="op6">토이 - 저녁식사</option>
+                            <option value="op7">전자양 - 던전 2</option>
+                            <option value="op8">W - 소년세계</option>
+                        </select><br><br>
+                        <select id="option2" name="option2" size="1" style="width:85%; height:45px; padding-left:5px;">     
+                            <option value="op9" selected>선택 옵션</option>
+                            <option value="op10">곧 추가될 예정입니다</option> 
+                        </select>
+
+                        <br><br><br><br>
+                        <p style="float:left; font-size:17px;">총 1개의 상품</p>
+                        <p style="float:right; font-size:20px; margin-right:15%;">총 금액 &nbsp<span style="color:#da5f26;"> 3,000 원</span></p><br><br><br> 
+
+                        <button type="button" onclick="alert('다음에 도와드릴게요~')" style="width:42%; height:50px; background-color: #ffffff; border: solid 1px #b3b3b3; border-radius: 8px; margin-right: 1%;">
+                            장바구니 담기
+                        </button>
+                        <a href="https://yuu2uuy.github.io/disc2022/page/order">
+                        <button type="button" onclick="alert('클릭해주세요!')" style="width:42%; height:50px; background-color: #da5f26; color:#ffffff; border: solid 1px #b3b3b3; border-radius: 8px; ">
+                            구매하기
+                        </button>
+                        </a>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 상품 세부 설명칸 -->
+            <div class="container-fluid bg-2 text-center">
+                <br><br>
+                <hr style="width:1170px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" /><br><br>
+                <p style="border: solid 1px #b3b3b3; width:60%; margin-left:20%; font-size: 18px; padding:2%; color:rgb(130, 129, 129);">
+                    더 다양한 음악을 들을 수 있게 <span style="color:#000000;"><b>노력할게요.  </b></span>많은<span style="color:#da5f26;"><b> 관심과 사랑 </b></span>부탁드려요.<br>안전한 배송을 위해 최선을 다하겠습니다. 감사합니다.</p>
+            </div>
+            <div class="container-fluld bg-3 "> 
+                <div class="new01-1" style="float:center;">
+                    <img src="sehooninseoul_banner.png" class="img-responsive" alt="Image" style = "margin-top: 80px; margin-bottom: 80px;"> 
+                </div>
+
+                <div class="new01-2" style="float:center;">
+                    <div class="newwrite1">
+                        <p style="font-size: 23px;"><b>sehooninseoul</p>
+                        <p style="font-size: 23px; color:#da5f26;">지하철 역</b></p><br><br><br>
+                    </div>
+                </div>
+
+                <div class="new01-3" style="float:center;">
+                    <img src="play_new01.png" class="img-responsive" alt="Image" ><br><br><br><br>
+                </div>
+
+                <div class="new01-op text-center" style="float:center;">
+                    <p style="font-size: 20px; color:#da5f26;"><b>OPTION</b></p><br><br>
+                    <div class="new01-op1">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">01</p> <br>
+                        <p style="font-size: 18px;"><b>2</b></p>
+                        <p>모임별</p><br>
+                        <img src="new01-s1.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new01-op2">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">02</p> <br>
+                        <p style="font-size: 18px;"><b>새벽</b></p>
+                        <p>윤상</p><br>
+                        <img src="new01-s2.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new01-op3">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">03</p> <br>
+                        <p style="font-size: 18px;"><b>Newbie (feat. 이랑)</b></p>
+                        <p>김도언</p><br>
+                        <img src="new01-s3.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new01-op4">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">04</p> <br>
+                        <p style="font-size: 18px;"><b>곡선과 투과광</b></p>
+                        <p>공중도둑</p><br>
+                        <img src="new01-s4.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new01-op5">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">05</p> <br>
+                        <p style="font-size: 18px;"><b>저녁식사</b></p>
+                        <p>토이</p><br>
+                        <img src="new01-s5.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new01-op6">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">06</p> <br>
+                        <p style="font-size: 18px;"><b>던전 2</b></p>
+                        <p>전자양</p><br>
+                        <img src="new01-s6.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+                    <div class="new01-op7">
+                        <p style="font-size: 18px; color:rgb(130, 129, 129);">07</p> <br>
+                        <p style="font-size: 18px;"><b>소년세계</b></p>
+                        <p>W</p><br>
+                        <img src="new01-s7.jpg" class="img-responsive" alt="Image"><br><br>
+                    </div>
+
+                    
+                </div>
+                    
+                
+            </div>
+            <!-- 하단 정보 -->
+            <div id="infor">
+                <div class="infor">    
+                    <div class="infor01">
+                        <h1 style="font-size:30px; font-weight:800;">고객센터 <span style="font-weight:700;">080-822-1450</span></h1>
+                        <p style="font-size:12px;">영업시간 : AM 9:00 ~ PM 18:00 (주말 및 공휴일 휴무) <br>점심시간 : PM 13:30 ~ PM 14:30</p>
+                    </div>
+                    <hr style="width:1170px; height:0.5px; border:none; background-color:#ddd; margin-top:25px; margin-bottom:25px;" /> 
+                    <div class="infor02">
+                        <p style="font-size:12px;">
+                            ㈜유튜브  
+                            <br/>
+                            주소 : 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+                        </p>
+                        <p style="margin-top:20px; font-size:12px;">
+                            <a href="#" style="font-weight:600;">이용약관</a> <span style="margin:0 10px;"> | </span> <a href="#"  style="font-weight:600;">개인정보정책</a> <span style="margin:0 10px;"> | </span> <a href="#"  style="font-weight:600;">전자금융거래이용약관</a>                       
+                        </p> 
+                    </div>
+                </div>
+                <div class="container-fluid copyright text-center" style="padding:15px 0;">
+                    <p style="font-size:10px; margin:0;">Copyright © yuu2uuy. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
